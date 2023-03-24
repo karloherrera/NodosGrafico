@@ -24,8 +24,9 @@ public class Lista {
 }
     public String ListarNodos(){
         Auxiliar = primero;
+        cadena ="";
         while(Auxiliar!=null){
-        cadena = cadena + Auxiliar.getDato();
+        cadena = cadena + "{" + Auxiliar.getDato() + "}";
         Auxiliar = Auxiliar.siguiente;
         }
         return cadena;

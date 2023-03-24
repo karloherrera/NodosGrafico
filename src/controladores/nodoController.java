@@ -31,7 +31,6 @@ public class nodoController implements ActionListener {
            //Abre la vista nodos
            //Poner a la escucha los botones
            this.vistaNodos.btnApilar.addActionListener(this);
-           this.vistaNodos.btnEncolar.addActionListener(this);
            //Levantar formulario
            this.vistaNodos.setLocationRelativeTo(null);
            this.vistaNodos.setVisible(true);
@@ -39,6 +38,6 @@ public class nodoController implements ActionListener {
        if(e.getSource() == this.vistaNodos.btnApilar){
         this.listaGOD.Apilar(Integer.parseInt(this.vistaNodos.txtDato.getText())); 
         this.vistaNodos.txtLista.setText(this.listaGOD.ListarNodos());
-    }
+        }
     }
 }

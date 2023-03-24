@@ -31,7 +31,6 @@ public class frmNodos extends javax.swing.JDialog {
         jLabel1 = new javax.swing.JLabel();
         txtDato = new javax.swing.JTextField();
         btnApilar = new javax.swing.JButton();
-        btnEncolar = new javax.swing.JButton();
         txtLista = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -39,8 +38,6 @@ public class frmNodos extends javax.swing.JDialog {
         jLabel1.setText("Ingrese valor del nodo");
 
         btnApilar.setText("Apilar");
-
-        btnEncolar.setText("Encolar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -58,9 +55,7 @@ public class frmNodos extends javax.swing.JDialog {
                                 .addComponent(txtDato, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(112, 112, 112)
-                        .addComponent(btnApilar)
-                        .addGap(39, 39, 39)
-                        .addComponent(btnEncolar)))
+                        .addComponent(btnApilar)))
                 .addContainerGap(25, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -71,9 +66,7 @@ public class frmNodos extends javax.swing.JDialog {
                     .addComponent(jLabel1)
                     .addComponent(txtDato, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(37, 37, 37)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnApilar)
-                    .addComponent(btnEncolar))
+                .addComponent(btnApilar)
                 .addGap(36, 36, 36)
                 .addComponent(txtLista, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(56, Short.MAX_VALUE))
@@ -126,7 +119,6 @@ public class frmNodos extends javax.swing.JDialog {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnApilar;
-    public javax.swing.JButton btnEncolar;
     private javax.swing.JLabel jLabel1;
     public javax.swing.JTextField txtDato;
     public javax.swing.JTextField txtLista;
